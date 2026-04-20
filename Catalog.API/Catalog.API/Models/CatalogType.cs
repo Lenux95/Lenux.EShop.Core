@@ -12,12 +12,13 @@ namespace Catalog.API.Models
         /// 类型ID
         /// </summary>
         [Key, Required]
-        [Column(TypeName = "char(36)")]
+        [Column("id",TypeName = "char(36)")]
         public Guid Id { get; set; }
-        
+
         /// <summary>
         /// 类型名称
         /// </summary>
+        [Column("type")]
         public string Type { get; set; } = string.Empty;
     }
 }
