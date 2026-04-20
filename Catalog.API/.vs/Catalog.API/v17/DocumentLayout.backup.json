@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\services\\catalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\services\\catalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\services\\icatalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\services\\icatalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\services\\catalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\services\\catalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -86,8 +86,8 @@
               "Title": "CatalogController.cs",
               "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Controllers\\CatalogController.cs",
               "RelativeDocumentMoniker": "Catalog.API\\Controllers\\CatalogController.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Controllers\\CatalogController.cs*",
-              "RelativeToolTip": "Catalog.API\\Controllers\\CatalogController.cs*",
+              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Controllers\\CatalogController.cs",
+              "RelativeToolTip": "Catalog.API\\Controllers\\CatalogController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAlwD8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T12:36:53.752Z",
@@ -121,13 +121,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CatalogService.cs",
               "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Services\\CatalogService.cs",
               "RelativeDocumentMoniker": "Catalog.API\\Services\\CatalogService.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Services\\CatalogService.cs*",
-              "RelativeToolTip": "Catalog.API\\Services\\CatalogService.cs*",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAswAUAAAAtAAAAAAAAAA==",
+              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Services\\CatalogService.cs",
+              "RelativeToolTip": "Catalog.API\\Services\\CatalogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T12:32:39.914Z",
               "EditorCaption": ""
@@ -160,13 +160,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ICatalogService.cs",
               "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Services\\ICatalogService.cs",
               "RelativeDocumentMoniker": "Catalog.API\\Services\\ICatalogService.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Services\\ICatalogService.cs",
-              "RelativeToolTip": "Catalog.API\\Services\\ICatalogService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
+              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Services\\ICatalogService.cs*",
+              "RelativeToolTip": "Catalog.API\\Services\\ICatalogService.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T12:34:34.664Z",
               "EditorCaption": ""
@@ -190,8 +190,8 @@
               "Title": "CatalogBrandsController.cs",
               "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Controllers\\CatalogBrandsController.cs",
               "RelativeDocumentMoniker": "Catalog.API\\Controllers\\CatalogBrandsController.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Controllers\\CatalogBrandsController.cs*",
-              "RelativeToolTip": "Catalog.API\\Controllers\\CatalogBrandsController.cs*",
+              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Controllers\\CatalogBrandsController.cs",
+              "RelativeToolTip": "Catalog.API\\Controllers\\CatalogBrandsController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAADwvzcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T12:36:25.59Z",

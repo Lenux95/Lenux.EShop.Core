@@ -6,6 +6,7 @@ namespace Catalog.API.Models
     /// <summary>
     /// 商品品牌实体类
     /// </summary>
+    [Table("catalog_brand")]
     public class CatalogBrand
     {
         /// <summary>

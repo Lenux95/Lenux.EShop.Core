@@ -6,6 +6,7 @@ namespace Catalog.API.Models
     /// <summary>
     /// 商品类型实体类
     /// </summary>
+    [Table("catalog_type")]
     public class CatalogType
     {
         /// <summary>
