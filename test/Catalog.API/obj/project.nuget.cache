@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "dgSpecHash": "3OCsIf7f1ng=",
+  "success": false,
+  "projectFilePath": "D:\\WorkSpace\\program\\EShop.Core\\test\\Catalog.API\\Catalog.API.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "找不到项目“D:\\WorkSpace\\program\\EShop.Core\\test\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj”。请检查项目引用是否有效以及项目文件是否存在。",
+      "projectPath": "D:\\WorkSpace\\program\\EShop.Core\\test\\Catalog.API\\Catalog.API.csproj",
+      "filePath": "D:\\WorkSpace\\program\\EShop.Core\\test\\Catalog.API\\Catalog.API.csproj",
+      "libraryId": "D:\\WorkSpace\\program\\EShop.Core\\test\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "找不到项目“D:\\WorkSpace\\program\\EShop.Core\\test\\eShop.ServiceDefaults\\eShop.ServiceDefaults.csproj”。请检查项目引用是否有效以及项目文件是否存在。",
+      "projectPath": "D:\\WorkSpace\\program\\EShop.Core\\test\\Catalog.API\\Catalog.API.csproj",
+      "filePath": "D:\\WorkSpace\\program\\EShop.Core\\test\\Catalog.API\\Catalog.API.csproj",
+      "libraryId": "D:\\WorkSpace\\program\\EShop.Core\\test\\eShop.ServiceDefaults\\eShop.ServiceDefaults.csproj",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "找不到项目“D:\\WorkSpace\\program\\EShop.Core\\test\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj”。请检查项目引用是否有效以及项目文件是否存在。",
+      "projectPath": "D:\\WorkSpace\\program\\EShop.Core\\test\\Catalog.API\\Catalog.API.csproj",
+      "filePath": "D:\\WorkSpace\\program\\EShop.Core\\test\\Catalog.API\\Catalog.API.csproj",
+      "libraryId": "D:\\WorkSpace\\program\\EShop.Core\\test\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

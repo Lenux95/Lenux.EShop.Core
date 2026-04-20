@@ -16,7 +16,7 @@ namespace Catalog.API.Extensions
             {
                 options.UseMySql(
                     configuration.GetConnectionString("MySQL"),
-                    new MySqlServerVersion(new Version(8, 0, 28)) // 指定 MySQL 版本
+                    new MySqlServerVersion(new Version(8, 0, 45)) // 指定 MySQL 版本
                 );
             });
 

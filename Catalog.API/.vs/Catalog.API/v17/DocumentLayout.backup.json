@@ -3,80 +3,24 @@
   "WorkspaceRootPath": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\controllers\\catalogbrandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\controllers\\catalogbrandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\data\\repositories\\implementations\\catalogbrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\data\\repositories\\implementations\\catalogbrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\catalog.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\catalog.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\services\\catalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\services\\catalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\data\\repositories\\icatalogbrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\data\\repositories\\icatalogbrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\data\\catalogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\data\\catalogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\data\\repositories\\implementations\\catalogtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\data\\repositories\\implementations\\catalogtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\services\\icatalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\services\\icatalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\data\\repositories\\icatalogtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\data\\repositories\\icatalogtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\data\\repositories\\implementations\\catalogitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\data\\repositories\\implementations\\catalogitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\data\\repositories\\icatalogitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\data\\repositories\\icatalogitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\models\\paginateditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\models\\paginateditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\models\\catalogtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\models\\catalogtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\models\\catalogbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\models\\catalogbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\models\\catalogitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\models\\catalogitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|d:\\workspace\\program\\eshop.core\\catalog.api\\catalog.api\\catalog.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6C75DD36-EC2C-490C-9404-ACB81A4E50E2}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\catalog.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,257 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CatalogController.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Controllers\\CatalogController.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Controllers\\CatalogController.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Controllers\\CatalogController.cs*",
-              "RelativeToolTip": "Catalog.API\\Controllers\\CatalogController.cs*",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAhwDsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:18:23.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CatalogService.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Services\\CatalogService.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Services\\CatalogService.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Services\\CatalogService.cs",
-              "RelativeToolTip": "Catalog.API\\Services\\CatalogService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAG8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:17:42.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Catalog.API\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T03:43:22.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ICatalogBrandRepository.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Data\\Repositories\\ICatalogBrandRepository.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Data\\Repositories\\ICatalogBrandRepository.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Data\\Repositories\\ICatalogBrandRepository.cs",
-              "RelativeToolTip": "Catalog.API\\Data\\Repositories\\ICatalogBrandRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:14:44.654Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Catalog.API\\appsettings.json",
+              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\appsettings.json",
+              "RelativeToolTip": "Catalog.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-20T08:18:53.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CatalogBrandRepository.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Data\\Repositories\\Implementations\\CatalogBrandRepository.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Data\\Repositories\\Implementations\\CatalogBrandRepository.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Data\\Repositories\\Implementations\\CatalogBrandRepository.cs",
-              "RelativeToolTip": "Catalog.API\\Data\\Repositories\\Implementations\\CatalogBrandRepository.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA8wB8AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:15:06.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Program.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Program.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Program.cs",
-              "RelativeToolTip": "Catalog.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:21:39.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Extensions\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Extensions\\ServiceExtensions.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Extensions\\ServiceExtensions.cs",
-              "RelativeToolTip": "Catalog.API\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:20:42.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CatalogBrandsController.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Controllers\\CatalogBrandsController.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Controllers\\CatalogBrandsController.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Controllers\\CatalogBrandsController.cs",
-              "RelativeToolTip": "Catalog.API\\Controllers\\CatalogBrandsController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:20:13.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CatalogDbContext.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Data\\CatalogDbContext.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Data\\CatalogDbContext.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Data\\CatalogDbContext.cs",
-              "RelativeToolTip": "Catalog.API\\Data\\CatalogDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:11:26.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CatalogTypeRepository.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Data\\Repositories\\Implementations\\CatalogTypeRepository.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Data\\Repositories\\Implementations\\CatalogTypeRepository.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Data\\Repositories\\Implementations\\CatalogTypeRepository.cs",
-              "RelativeToolTip": "Catalog.API\\Data\\Repositories\\Implementations\\CatalogTypeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:16:39.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ICatalogService.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Services\\ICatalogService.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Services\\ICatalogService.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Services\\ICatalogService.cs",
-              "RelativeToolTip": "Catalog.API\\Services\\ICatalogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:17:08.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ICatalogTypeRepository.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Data\\Repositories\\ICatalogTypeRepository.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Data\\Repositories\\ICatalogTypeRepository.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Data\\Repositories\\ICatalogTypeRepository.cs",
-              "RelativeToolTip": "Catalog.API\\Data\\Repositories\\ICatalogTypeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:15:40.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CatalogItemRepository.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Data\\Repositories\\Implementations\\CatalogItemRepository.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Data\\Repositories\\Implementations\\CatalogItemRepository.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Data\\Repositories\\Implementations\\CatalogItemRepository.cs",
-              "RelativeToolTip": "Catalog.API\\Data\\Repositories\\Implementations\\CatalogItemRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:13:20.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ICatalogItemRepository.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Data\\Repositories\\ICatalogItemRepository.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Data\\Repositories\\ICatalogItemRepository.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Data\\Repositories\\ICatalogItemRepository.cs",
-              "RelativeToolTip": "Catalog.API\\Data\\Repositories\\ICatalogItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:12:23.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PaginatedItems.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Models\\PaginatedItems.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Models\\PaginatedItems.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Models\\PaginatedItems.cs",
-              "RelativeToolTip": "Catalog.API\\Models\\PaginatedItems.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:10:58.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CatalogType.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Models\\CatalogType.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Models\\CatalogType.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Models\\CatalogType.cs",
-              "RelativeToolTip": "Catalog.API\\Models\\CatalogType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:09:54.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CatalogBrand.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Models\\CatalogBrand.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Models\\CatalogBrand.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Models\\CatalogBrand.cs",
-              "RelativeToolTip": "Catalog.API\\Models\\CatalogBrand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:09:29.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CatalogItem.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Models\\CatalogItem.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Models\\CatalogItem.cs",
-              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Models\\CatalogItem.cs",
-              "RelativeToolTip": "Catalog.API\\Models\\CatalogItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T05:08:41.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "Catalog.API",
               "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Catalog.API.csproj",
               "RelativeDocumentMoniker": "Catalog.API\\Catalog.API.csproj",
               "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Catalog.API.csproj",
               "RelativeToolTip": "Catalog.API\\Catalog.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-20T02:45:26.936Z",
+              "WhenOpened": "2026-04-20T07:58:46.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CatalogItem.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Models\\CatalogItem.cs",
+              "RelativeDocumentMoniker": "Catalog.API\\Models\\CatalogItem.cs",
+              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Models\\CatalogItem.cs",
+              "RelativeToolTip": "Catalog.API\\Models\\CatalogItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:55:27.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Program.cs",
+              "RelativeDocumentMoniker": "Catalog.API\\Program.cs",
+              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Program.cs",
+              "RelativeToolTip": "Catalog.API\\Program.cs",
+              "ViewState": "AgIAAAAAAADAzMzMzMwQwAAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:00:29.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Catalog.API\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "D:\\WorkSpace\\program\\EShop.Core\\Catalog.API\\Catalog.API\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "Catalog.API\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T06:21:02.261Z",
               "EditorCaption": ""
             }
           ]
