@@ -13,7 +13,7 @@ namespace Catalog.API.Data.Repositories.Implementations
             _context = context;
         }
 
-        public async Task<CatalogItem> GetByIdAsync(int id)
+        public async Task<CatalogItem> GetByIdAsync(Guid id)
         {
             return await _context.CatalogItems
                 .Include(c => c.CatalogBrand)
@@ -31,7 +31,7 @@ namespace Catalog.API.Data.Repositories.Implementations
                 .ToListAsync();
         }
 
-        public async Task<IEnumerable<CatalogItem>> GetByBrandAndTypeAsync(int? brandId, int? typeId, int pageIndex, int pageSize)
+        public async Task<IEnumerable<CatalogItem>> GetByBrandAndTypeAsync(Guid? brandId, Guid? typeId, int pageIndex, int pageSize)
         {
             var query = _context.CatalogItems
                 .Include(c => c.CatalogBrand)
@@ -40,12 +40,12 @@ namespace Catalog.API.Data.Repositories.Implementations
 
             if (brandId.HasValue)
             {
-                query = query.Where(c => c.CatalogBrandId == brandId.Value);
+                query = query.Where(c => c.CatalogBrandId == brandId);
             }
 
             if (typeId.HasValue)
             {
-                query = query.Where(c => c.CatalogTypeId == typeId.Value);
+                query = query.Where(c => c.CatalogTypeId == typeId);
             }
 
             return await query
@@ -66,7 +66,7 @@ namespace Catalog.API.Data.Repositories.Implementations
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(Guid id)
         {
             var item = await GetByIdAsync(id);
             if (item != null)

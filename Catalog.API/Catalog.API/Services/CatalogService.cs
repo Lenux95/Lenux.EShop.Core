@@ -19,7 +19,7 @@ namespace Catalog.API.Services
             _typeRepository = typeRepository;
         }
 
-        public async Task<CatalogItem> GetItemByIdAsync(int id)
+        public async Task<CatalogItem> GetItemByIdAsync(Guid id)
         {
             return await _itemRepository.GetByIdAsync(id);
         }
@@ -31,7 +31,7 @@ namespace Catalog.API.Services
             return new PaginatedItems<CatalogItem>(pageIndex, pageSize, count, items);
         }
 
-        public async Task<PaginatedItems<CatalogItem>> GetItemsByBrandAndTypeAsync(int? brandId, int? typeId, int pageIndex, int pageSize)
+        public async Task<PaginatedItems<CatalogItem>> GetItemsByBrandAndTypeAsync(Guid? brandId, Guid? typeId, int pageIndex, int pageSize)
         {
             var items = await _itemRepository.GetByBrandAndTypeAsync(brandId, typeId, pageIndex, pageSize);
             var count = await _itemRepository.CountAsync();
@@ -50,7 +50,7 @@ namespace Catalog.API.Services
             return item;
         }
 
-        public async Task DeleteItemAsync(int id)
+        public async Task DeleteItemAsync(Guid id)
         {
             await _itemRepository.DeleteAsync(id);
         }
@@ -60,7 +60,7 @@ namespace Catalog.API.Services
             return await _brandRepository.GetAllAsync();
         }
 
-        public async Task<CatalogBrand> GetBrandByIdAsync(int id)
+        public async Task<CatalogBrand> GetBrandByIdAsync(Guid id)
         {
             return await _brandRepository.GetByIdAsync(id);
         }
@@ -77,7 +77,7 @@ namespace Catalog.API.Services
             return brand;
         }
 
-        public async Task DeleteBrandAsync(int id)
+        public async Task DeleteBrandAsync(Guid id)
         {
             await _brandRepository.DeleteAsync(id);
         }
@@ -87,7 +87,7 @@ namespace Catalog.API.Services
             return await _typeRepository.GetAllAsync();
         }
 
-        public async Task<CatalogType> GetTypeByIdAsync(int id)
+        public async Task<CatalogType> GetTypeByIdAsync(Guid id)
         {
             return await _typeRepository.GetByIdAsync(id);
         }
@@ -104,7 +104,7 @@ namespace Catalog.API.Services
             return type;
         }
 
-        public async Task DeleteTypeAsync(int id)
+        public async Task DeleteTypeAsync(Guid id)
         {
             await _typeRepository.DeleteAsync(id);
         }

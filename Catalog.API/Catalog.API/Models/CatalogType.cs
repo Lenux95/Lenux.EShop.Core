@@ -1,10 +1,23 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Catalog.API.Models
 {
+    /// <summary>
+    /// 商品类型实体类
+    /// </summary>
     public class CatalogType
     {
-        public int Id { get; set; }
+        /// <summary>
+        /// 类型ID
+        /// </summary>
+        [Key, Required]
+        [Column(TypeName = "char(36)")]
+        public Guid Id { get; set; }
+        
+        /// <summary>
+        /// 类型名称
+        /// </summary>
         public string Type { get; set; } = string.Empty;
     }
 }

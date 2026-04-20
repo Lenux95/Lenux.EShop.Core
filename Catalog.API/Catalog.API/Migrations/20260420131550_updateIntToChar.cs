@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
+﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Catalog.API.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class updateIntToChar : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,8 +18,7 @@ namespace Catalog.API.Migrations
                 name: "CatalogBrands",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<Guid>(type: "char(36)", nullable: false, collation: "ascii_general_ci"),
                     Brand = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
@@ -33,8 +32,7 @@ namespace Catalog.API.Migrations
                 name: "CatalogTypes",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<Guid>(type: "char(36)", nullable: false, collation: "ascii_general_ci"),
                     Type = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
@@ -48,8 +46,7 @@ namespace Catalog.API.Migrations
                 name: "CatalogItems",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<Guid>(type: "char(36)", nullable: false, collation: "ascii_general_ci"),
                     Name = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Description = table.Column<string>(type: "longtext", nullable: false)
@@ -57,8 +54,8 @@ namespace Catalog.API.Migrations
                     Price = table.Column<decimal>(type: "decimal(65,30)", nullable: false),
                     PictureFileName = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    CatalogTypeId = table.Column<int>(type: "int", nullable: false),
-                    CatalogBrandId = table.Column<int>(type: "int", nullable: false),
+                    CatalogTypeId = table.Column<Guid>(type: "char(36)", nullable: false, collation: "ascii_general_ci"),
+                    CatalogBrandId = table.Column<Guid>(type: "char(36)", nullable: false, collation: "ascii_general_ci"),
                     AvailableStock = table.Column<int>(type: "int", nullable: false),
                     RestockThreshold = table.Column<int>(type: "int", nullable: false),
                     MaxStockThreshold = table.Column<int>(type: "int", nullable: false)

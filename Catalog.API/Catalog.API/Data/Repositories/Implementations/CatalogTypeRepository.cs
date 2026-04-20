@@ -18,7 +18,7 @@ namespace Catalog.API.Data.Repositories.Implementations
             return await _context.CatalogTypes.OrderBy(t => t.Type).ToListAsync();
         }
 
-        public async Task<CatalogType> GetByIdAsync(int id)
+        public async Task<CatalogType> GetByIdAsync(Guid id)
         {
             return await _context.CatalogTypes.FirstOrDefaultAsync(t => t.Id == id);
         }
@@ -35,7 +35,7 @@ namespace Catalog.API.Data.Repositories.Implementations
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(Guid id)
         {
             var type = await GetByIdAsync(id);
             if (type != null)

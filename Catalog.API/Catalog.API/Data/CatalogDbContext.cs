@@ -16,6 +16,7 @@ namespace Catalog.API.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<CatalogItem>().ToTable("Products");
             modelBuilder.Entity<CatalogItem>()
                 .HasOne(c => c.CatalogBrand)
                 .WithMany()

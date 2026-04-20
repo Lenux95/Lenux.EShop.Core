@@ -18,7 +18,7 @@ namespace Catalog.API.Data.Repositories.Implementations
             return await _context.CatalogBrands.OrderBy(b => b.Brand).ToListAsync();
         }
 
-        public async Task<CatalogBrand> GetByIdAsync(int id)
+        public async Task<CatalogBrand> GetByIdAsync(Guid id)
         {
             return await _context.CatalogBrands.FirstOrDefaultAsync(b => b.Id == id);
         }
@@ -35,7 +35,7 @@ namespace Catalog.API.Data.Repositories.Implementations
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(Guid id)
         {
             var brand = await GetByIdAsync(id);
             if (brand != null)

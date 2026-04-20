@@ -23,7 +23,7 @@ namespace Catalog.API.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<CatalogBrand>> GetBrand(int id)
+        public async Task<ActionResult<CatalogBrand>> GetBrand(Guid id)
         {
             var brand = await _catalogService.GetBrandByIdAsync(id);
             if (brand == null)
@@ -41,7 +41,7 @@ namespace Catalog.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<CatalogBrand>> UpdateBrand(int id, [FromBody] CatalogBrand brand)
+        public async Task<ActionResult<CatalogBrand>> UpdateBrand(Guid id, [FromBody] CatalogBrand brand)
         {
             if (id != brand.Id)
             {
@@ -53,7 +53,7 @@ namespace Catalog.API.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult> DeleteBrand(int id)
+        public async Task<ActionResult> DeleteBrand(Guid id)
         {
             await _catalogService.DeleteBrandAsync(id);
             return NoContent();

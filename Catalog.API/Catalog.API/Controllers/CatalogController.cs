@@ -20,15 +20,15 @@ namespace Catalog.API.Controllers
         public async Task<ActionResult<PaginatedItems<CatalogItem>>> GetItems(
             [FromQuery] int pageIndex = 0,
             [FromQuery] int pageSize = 10,
-            [FromQuery] int? brandId = null,
-            [FromQuery] int? typeId = null)
+            [FromQuery] Guid? brandId = null,
+            [FromQuery] Guid? typeId = null)
         {
             var items = await _catalogService.GetItemsByBrandAndTypeAsync(brandId, typeId, pageIndex, pageSize);
             return Ok(items);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<CatalogItem>> GetItem(int id)
+        public async Task<ActionResult<CatalogItem>> GetItem(Guid id)
         {
             var item = await _catalogService.GetItemByIdAsync(id);
             if (item == null)
@@ -46,7 +46,7 @@ namespace Catalog.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<CatalogItem>> UpdateItem(int id, [FromBody] CatalogItem item)
+        public async Task<ActionResult<CatalogItem>> UpdateItem(Guid id, [FromBody] CatalogItem item)
         {
             if (id != item.Id)
             {
@@ -58,16 +58,16 @@ namespace Catalog.API.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult> DeleteItem(int id)
+        public async Task<ActionResult> DeleteItem(Guid id)
         {
             await _catalogService.DeleteItemAsync(id);
             return NoContent();
         }
 
         [HttpGet("serch")]
-        public async Task<ActionResult<PaginatedItems<CatalogItem>>> GetItem([FromQuery] int pageIndex = 0,[FromQuery] int pageSize = 10,[FromQuery] int? brandId = null)
+        public async Task<ActionResult<PaginatedItems<CatalogItem>>> GetItem([FromQuery] int pageIndex = 0,[FromQuery] int pageSize = 10,[FromQuery] Guid? brandId = null)
         {
-            var items = await _catalogService.GetItemsByBrandAndTypeAsync(brandId, 1, pageIndex, pageSize);
+            var items = await _catalogService.GetItemsByBrandAndTypeAsync(brandId, null, pageIndex, pageSize);
             return Ok(items);
         }
     }
