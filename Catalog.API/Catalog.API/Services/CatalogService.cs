@@ -1,5 +1,6 @@
 ﻿using Catalog.API.Data.Repositories;
 using Catalog.API.Models;
+using Catalog.API.Models.Dtos;
 
 namespace Catalog.API.Services
 {
@@ -8,15 +9,18 @@ namespace Catalog.API.Services
         private readonly ICatalogItemRepository _itemRepository;
         private readonly ICatalogBrandRepository _brandRepository;
         private readonly ICatalogTypeRepository _typeRepository;
+        private readonly IPythonServiceClient _pythonServiceClient;
 
         public CatalogService(
             ICatalogItemRepository itemRepository,
             ICatalogBrandRepository brandRepository,
-            ICatalogTypeRepository typeRepository)
+            ICatalogTypeRepository typeRepository,
+            IPythonServiceClient pythonServiceClient)
         {
             _itemRepository = itemRepository;
             _brandRepository = brandRepository;
             _typeRepository = typeRepository;
+            _pythonServiceClient = pythonServiceClient;
         }
 
         public async Task<CatalogItem> GetItemByIdAsync(Guid id)
@@ -107,6 +111,16 @@ namespace Catalog.API.Services
         public async Task DeleteTypeAsync(Guid id)
         {
             await _typeRepository.DeleteAsync(id);
+        }
+
+        public async Task<AgentQueryResponse> TestAgent()
+        {
+            var request = new AgentQueryRequest{ Query = "文档3的更新日期是" };
+            var response = await _pythonServiceClient.CallPythonApiAsync<AgentQueryRequest, AgentQueryResponse>(
+                "/api/test/agent/query",
+                request
+            );
+            return response;
         }
     }
 }

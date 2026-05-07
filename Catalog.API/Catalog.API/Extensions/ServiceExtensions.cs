@@ -1,4 +1,5 @@
-﻿using Catalog.API.Data;
+﻿using System.Net.Http.Headers;
+using Catalog.API.Data;
 using Catalog.API.Data.Repositories;
 using Catalog.API.Data.Repositories.Implementations;
 using Catalog.API.Services;
@@ -27,6 +28,18 @@ namespace Catalog.API.Extensions
 
             // 注册服务
             services.AddScoped<ICatalogService, CatalogService>();
+        }
+
+        //注册agent服务
+        public static void AddPythonServices(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddHttpClient("PythonApiClient", client =>
+            {
+                client.BaseAddress = new Uri("http://localhost:8000/");
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                client.Timeout = TimeSpan.FromSeconds(30);
+            });
+
             services.AddScoped<IPythonServiceClient, PythonServiceClient>();
         }
     }

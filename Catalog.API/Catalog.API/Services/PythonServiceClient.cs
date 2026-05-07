@@ -1,4 +1,8 @@
-﻿
+
+using Microsoft.Extensions.Logging;
+using System.Net.Http;
+using System.Net.Http.Json;
+
 namespace Catalog.API.Services
 {
     public class PythonServiceClient : IPythonServiceClient
@@ -6,11 +10,16 @@ namespace Catalog.API.Services
         private readonly HttpClient _httpClient;
         private readonly ILogger<PythonServiceClient> _logger;
 
-        public PythonServiceClient(HttpClient httpClient, ILogger<PythonServiceClient> logger)
+        public PythonServiceClient(IHttpClientFactory httpClientFactory, ILogger<PythonServiceClient> logger)
         {
-            _httpClient = httpClient;
+            _httpClient = httpClientFactory.CreateClient("PythonApiClient");
             _logger = logger;
         }
+        //public PythonServiceClient(HttpClient httpClient, ILogger<PythonServiceClient> logger)
+        //{
+        //    _httpClient = httpClient;
+        //    _logger = logger;
+        //}
 
         public async Task<TResponse> CallPythonApiAsync<TRequest, TResponse>(string endpoint, TRequest request)
         {
