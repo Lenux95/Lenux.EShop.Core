@@ -27,6 +27,7 @@ namespace Catalog.API.Extensions
 
             // 注册服务
             services.AddScoped<ICatalogService, CatalogService>();
+            services.AddScoped<IPythonServiceClient, PythonServiceClient>();
         }
     }
 }
