@@ -21,6 +21,5 @@ namespace Catalog.API.Services
         Task<CatalogType> CreateTypeAsync(CatalogType type);
         Task<CatalogType> UpdateTypeAsync(CatalogType type);
         Task DeleteTypeAsync(Guid id);
-        Task<AgentQueryResponse> TestAgent();
     }
 }

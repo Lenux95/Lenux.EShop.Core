@@ -1,9 +1,8 @@
-
 using Microsoft.Extensions.Logging;
 using System.Net.Http;
 using System.Net.Http.Json;
 
-namespace Catalog.API.Services
+namespace Catalog.API.Services.Implementations
 {
     public class PythonServiceClient : IPythonServiceClient
     {

@@ -3,6 +3,7 @@ using Catalog.API.Data;
 using Catalog.API.Data.Repositories;
 using Catalog.API.Data.Repositories.Implementations;
 using Catalog.API.Services;
+using Catalog.API.Services.Implementations;
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql;
 
@@ -28,6 +29,7 @@ namespace Catalog.API.Extensions
 
             // 注册服务
             services.AddScoped<ICatalogService, CatalogService>();
+            services.AddScoped<IAgentService, AgentService>();
         }
 
         //注册agent服务

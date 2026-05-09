@@ -71,12 +71,5 @@ namespace Catalog.API.Controllers
             var items = await _catalogService.GetItemsByBrandAndTypeAsync(brandId, null, pageIndex, pageSize);
             return Ok(items);
         }
-
-        [HttpGet("agent")]
-        public async Task<ActionResult<AgentQueryResponse>> TestAgent()
-        {
-            var respose = await _catalogService.TestAgent();
-            return Ok(respose);
-        }
     }
 }
