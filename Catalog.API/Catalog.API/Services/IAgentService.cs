@@ -4,7 +4,7 @@ namespace Catalog.API.Services
 {
     public interface IAgentService
     {
-        Task<AgentQueryResponse> TestAgent();
+        Task<AgentQueryResponse> TestAgent(string query);
 
     }
 }

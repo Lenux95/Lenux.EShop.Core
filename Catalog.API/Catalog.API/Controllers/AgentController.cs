@@ -17,9 +17,9 @@ namespace Catalog.API.Controllers
         }
 
         [HttpGet("agent")]
-        public async Task<ActionResult<AgentQueryResponse>> TestAgent()
+        public async Task<ActionResult<AgentQueryResponse>> TestAgent([FromQuery] string query)
         {
-            var respose = await _agentService.TestAgent();
+            var respose = await _agentService.TestAgent(query);
             return Ok(respose);
         }
     }
