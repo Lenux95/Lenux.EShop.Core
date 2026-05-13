@@ -1,4 +1,4 @@
-﻿using Catalog.API.Data;
+using Catalog.API.Data;
 using Catalog.API.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -49,6 +49,7 @@ namespace Catalog.API.Data.Repositories.Implementations
             }
 
             return await query
+                .OrderBy(x => x.Id)
                 .Skip(pageSize * pageIndex)
                 .Take(pageSize)
                 .ToListAsync();

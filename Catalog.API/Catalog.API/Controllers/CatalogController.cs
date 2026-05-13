@@ -11,10 +11,12 @@ namespace Catalog.API.Controllers
     public class CatalogItemsController : ControllerBase
     {
         private readonly ICatalogService _catalogService;
+        private readonly ILogger<CatalogItemsController> _logger;
 
-        public CatalogItemsController(ICatalogService catalogService)
+        public CatalogItemsController(ICatalogService catalogService, ILogger<CatalogItemsController> logger)
         {
             _catalogService = catalogService;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -24,6 +26,7 @@ namespace Catalog.API.Controllers
             [FromQuery] Guid? brandId = null,
             [FromQuery] Guid? typeId = null)
         {
+            _logger.LogInformation("调试信息, Id={ProductId}", "123");
             var items = await _catalogService.GetItemsByBrandAndTypeAsync(brandId, typeId, pageIndex, pageSize);
             return Ok(items);
         }
