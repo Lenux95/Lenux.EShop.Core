@@ -480,3 +480,5 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+/Catalog.API/Catalog.API/note/interview_notes.md
+/Catalog.API/Catalog.API/development_plan.md
