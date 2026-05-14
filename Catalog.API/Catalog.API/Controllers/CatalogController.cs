@@ -1,6 +1,5 @@
-﻿using System;
 using Catalog.API.Models;
-using Catalog.API.Models.Dtos;
+using Catalog.API.Models.Api;
 using Catalog.API.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,15 +19,14 @@ namespace Catalog.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<PaginatedItems<CatalogItem>>> GetItems(
+        public async Task<PaginatedItems<CatalogItem>> GetItems(
             [FromQuery] int pageIndex = 0,
             [FromQuery] int pageSize = 10,
             [FromQuery] Guid? brandId = null,
             [FromQuery] Guid? typeId = null)
         {
-            _logger.LogInformation("调试信息, Id={ProductId}", "123");
-            var items = await _catalogService.GetItemsByBrandAndTypeAsync(brandId, typeId, pageIndex, pageSize);
-            return Ok(items);
+            _logger.LogInformation("查询商品列表, PageIndex={PageIndex}, PageSize={PageSize}", pageIndex, pageSize);
+            return await _catalogService.GetItemsByBrandAndTypeAsync(brandId, typeId, pageIndex, pageSize);
         }
 
         [HttpGet("{id}")]
@@ -37,9 +35,9 @@ namespace Catalog.API.Controllers
             var item = await _catalogService.GetItemByIdAsync(id);
             if (item == null)
             {
-                return NotFound();
+                return NotFound(ApiResponse.Fail(404, "商品不存在"));
             }
-            return Ok(item);
+            return item;
         }
 
         [HttpPost]
@@ -54,25 +52,26 @@ namespace Catalog.API.Controllers
         {
             if (id != item.Id)
             {
-                return BadRequest();
+                return BadRequest(ApiResponse.Fail(400, "请求ID与商品ID不匹配"));
             }
 
-            var updatedItem = await _catalogService.UpdateItemAsync(item);
-            return Ok(updatedItem);
+            return await _catalogService.UpdateItemAsync(item);
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult> DeleteItem(Guid id)
+        public async Task<IActionResult> DeleteItem(Guid id)
         {
             await _catalogService.DeleteItemAsync(id);
-            return NoContent();
+            return Ok();
         }
 
         [HttpGet("serch")]
-        public async Task<ActionResult<PaginatedItems<CatalogItem>>> GetItem([FromQuery] int pageIndex = 0,[FromQuery] int pageSize = 10,[FromQuery] Guid? brandId = null)
+        public async Task<PaginatedItems<CatalogItem>> GetItem(
+            [FromQuery] int pageIndex = 0,
+            [FromQuery] int pageSize = 10,
+            [FromQuery] Guid? brandId = null)
         {
-            var items = await _catalogService.GetItemsByBrandAndTypeAsync(brandId, null, pageIndex, pageSize);
-            return Ok(items);
+            return await _catalogService.GetItemsByBrandAndTypeAsync(brandId, null, pageIndex, pageSize);
         }
     }
 }

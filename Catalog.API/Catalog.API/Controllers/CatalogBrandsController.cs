@@ -1,4 +1,5 @@
-﻿using Catalog.API.Models;
+using Catalog.API.Models;
+using Catalog.API.Models.Api;
 using Catalog.API.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,10 +17,9 @@ namespace Catalog.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CatalogBrand>>> GetBrands()
+        public async Task<IEnumerable<CatalogBrand>> GetBrands()
         {
-            var brands = await _catalogService.GetBrandsAsync();
-            return Ok(brands);
+            return await _catalogService.GetBrandsAsync();
         }
 
         [HttpGet("{id}")]
@@ -28,9 +28,9 @@ namespace Catalog.API.Controllers
             var brand = await _catalogService.GetBrandByIdAsync(id);
             if (brand == null)
             {
-                return NotFound();
+                return NotFound(ApiResponse.Fail(404, "品牌不存在"));
             }
-            return Ok(brand);
+            return brand;
         }
 
         [HttpPost]
@@ -45,18 +45,17 @@ namespace Catalog.API.Controllers
         {
             if (id != brand.Id)
             {
-                return BadRequest();
+                return BadRequest(ApiResponse.Fail(400, "请求ID与品牌ID不匹配"));
             }
 
-            var updatedBrand = await _catalogService.UpdateBrandAsync(brand);
-            return Ok(updatedBrand);
+            return await _catalogService.UpdateBrandAsync(brand);
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult> DeleteBrand(Guid id)
+        public async Task<IActionResult> DeleteBrand(Guid id)
         {
             await _catalogService.DeleteBrandAsync(id);
-            return NoContent();
+            return Ok();
         }
     }
 }

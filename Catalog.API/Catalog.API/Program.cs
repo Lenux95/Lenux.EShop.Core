@@ -1,5 +1,6 @@
 using System.Net.Http.Headers;
 using Catalog.API.Extensions;
+using Catalog.API.Filters;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Serilog;
 using Serilog.Context;
@@ -10,7 +11,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<ApiResultFilter>();
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

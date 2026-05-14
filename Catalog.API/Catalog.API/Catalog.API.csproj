@@ -23,6 +23,7 @@
     <Folder Include="Data\TestData\" />
     <Folder Include="logs\" />
     <Folder Include="Migrations\" />
+    <Folder Include="note\" />
   </ItemGroup>
 
 </Project>

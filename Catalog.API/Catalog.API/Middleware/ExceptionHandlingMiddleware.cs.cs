@@ -1,6 +1,6 @@
-﻿using System.Net;
+using System.Net;
 using System.Text.Json;
-using Serilog;
+using Catalog.API.Models.Api;
 
 namespace Catalog.API.Middleware;
 
@@ -34,7 +34,6 @@ public class ExceptionHandlingMiddleware
 
     private async Task HandleExceptionAsync(HttpContext context, Exception exception)
     {
-        // 在中间件中排除健康检查等路径
         if (context.Request.Path.StartsWithSegments("/health"))
         {
             await _next(context);
@@ -49,14 +48,13 @@ public class ExceptionHandlingMiddleware
         var response = context.Response;
         response.ContentType = "application/json";
 
-        var (statusCode, message, details) = exception switch
+        var (statusCode, message) = exception switch
         {
-            ArgumentException => (HttpStatusCode.BadRequest, exception.Message, null),
-            KeyNotFoundException => (HttpStatusCode.NotFound, exception.Message, null),
-            UnauthorizedAccessException => (HttpStatusCode.Unauthorized, "未授权访问", null),
-            InvalidOperationException => (HttpStatusCode.BadRequest, "操作无效", null),
-            _ => (HttpStatusCode.InternalServerError, "服务器内部错误",
-                  _environment.IsDevelopment() ? exception.StackTrace : null)
+            ArgumentException => (HttpStatusCode.BadRequest, exception.Message),
+            KeyNotFoundException => (HttpStatusCode.NotFound, exception.Message),
+            UnauthorizedAccessException => (HttpStatusCode.Unauthorized, "未授权访问"),
+            InvalidOperationException => (HttpStatusCode.BadRequest, exception.Message),
+            _ => (HttpStatusCode.InternalServerError, "服务器内部错误")
         };
 
         response.StatusCode = (int)statusCode;
@@ -65,7 +63,8 @@ public class ExceptionHandlingMiddleware
         {
             code = (int)statusCode,
             message,
-            details,
+            data = (object?)null,
+            details = _environment.IsDevelopment() ? exception.StackTrace : null,
             timestamp = DateTime.UtcNow
         };
 
